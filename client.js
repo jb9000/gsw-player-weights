@@ -1,5 +1,6 @@
-// URL for the JSON file
-var url = 'http://stats.nba.com/stats/commonteamroster?LeagueID=00&Season=2016-17&TeamID=1610612744';
+// URL for the JSON file.  Normally it comes from the line below, but due to http/https issues I saved a local copy.
+// var url = 'http://stats.nba.com/stats/commonteamroster?LeagueID=00&Season=2016-17&TeamID=1610612744';
+var url = 'https://jeffbautista.github.io/gsw-player-weights/gsw-profiles.JSON';
 
 // When the button is clicked, run a callback function
 $('#quote').click(function() {
