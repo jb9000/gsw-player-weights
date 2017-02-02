@@ -31,23 +31,3 @@ $('#quote').click(function() {
   });
 
 });
-    
-    
-   
-    // For each object in the JSON data file, push data to an HTML string, which we'll output to the page
-    // for (x in playerObj) {
-    //   console.log('hello!')
-    // });
-    
-//     $.each(data, function( key, val ) {
-//        playerProfiles2.push( "<li>" + value[0] + ', ' + value[1] + ', ' + value[2] + "</li>" );
-//     });  
-
-//     console.log(playerProfiles[2][1][0]['rowSet'][0]);
- 
-//     // Append a <ul> and the salariesByTeam array (500+ <li> entries, joined into a string) to the <body> element
-//     $( "<ul/>", {"class": "profile-list", html: playerProfiles[2][1][0]['rowSet'][0].join(', ')
-//       }).appendTo( "body" );
-    
-//   });
-// }); 
